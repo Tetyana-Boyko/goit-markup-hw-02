@@ -29,8 +29,8 @@ body {
   color: #4d5ae5;
 }
 
-.text-studio {
-  color: #f4f4fd;
+.text-studio-header {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -49,19 +49,19 @@ body {
   font-style: normal;
 }
 
-.page-adress-list-item {
+.page-adress-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.page-adress-list-item:hover,
-.page-adress-list-item:focus {
+.page-adress-link:hover,
+.page-adress-link:focus {
   color: #404bbf;
 }
 
 /* =========== HERO STYLES =========== */
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .main-title {
@@ -78,7 +78,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 .order-button:hover,
@@ -102,7 +102,7 @@ body {
 
 /* =========== OUR TEAM STYLES =========== */
 .our-team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .our-team-section-title {
@@ -113,6 +113,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .our-team-list-title {
@@ -122,7 +123,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .our-team-list-text {
@@ -159,7 +159,11 @@ body {
 
 /* =========== FOOTER STYLES =========== */
 .page-footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
+}
+
+.text-studio-footer {
+  color: f4f4fd;
 }
 
 .page-footer-text {
