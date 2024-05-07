@@ -6,7 +6,6 @@ ol {
 a {
   color: inherit;
   text-decoration: none;
-  font-style: normal;
 }
 button {
   cursor: pointer;
@@ -14,6 +13,7 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: #434455;
   background-color: #ffffff;
 }
@@ -26,15 +26,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.text-blue {
-  color: #4d5ae5;
+.text-studio {
+  color: #f4f4fd;
 }
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -45,13 +45,17 @@ body {
   color: #404bbf;
 }
 
+.page-adress {
+  font-style: normal;
+}
+
 .page-adress-list-item {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.page-adress-list-item:hover {
+.page-adress-list-item:hover,
+.page-adress-list-item:focus {
   color: #404bbf;
 }
 
@@ -71,16 +75,15 @@ body {
 
 .order-button {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
-.order-button:hover {
-  background: #404bbf;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 /* =========== BENEFITS STYLES =========== */
@@ -93,7 +96,6 @@ body {
 }
 
 .benefits-list-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -109,6 +111,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -119,10 +122,10 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .our-team-list-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -135,6 +138,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -148,7 +152,6 @@ body {
 }
 
 .portfolio-list-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -160,7 +163,6 @@ body {
 }
 
 .page-footer-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
