@@ -75,10 +75,13 @@ body {
 }
 
 /* =========== HEADER STYLES =========== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-navigation {
@@ -148,10 +151,10 @@ body {
   background-color: #2e2f42;
   max-width: 1440px;
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
 }
 
 .main-title {
@@ -226,7 +229,7 @@ body {
 .our-team-position {
   text-align: center;
   letter-spacing: 0.02em;
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .our-team-list-title {
